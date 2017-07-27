@@ -82,13 +82,7 @@ function calculateSalesTax(salesData, taxRates) {
 
 return result;
 
-  //console.log(applyTaxRate(salesInfo));
-
 }
-
-//console.log(companySalesData.length);
-
-//}
 
 console.log(calculateSalesTax(companySalesData, salesTaxRates));
 
