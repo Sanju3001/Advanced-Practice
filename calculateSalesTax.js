@@ -62,13 +62,6 @@ function calculateSalesTax(salesData, taxRates) {
     }
 
 
-    salesData.forEach (function (e) {
-
-      delete e.province;
-
-    });
-
-
   for (var i in salesData) {
 
     if (result[salesData[i]["name"]] == undefined ) {
